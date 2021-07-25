@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fill your Information"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@color/teal_200">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="20dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/purple_700">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Full Name"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/fullnameid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile Number"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/mobilenumberid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="E-mail"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/emailid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Github ID"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/githubid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="College Name"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/collegenameid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="CGPA"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/cgpaid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Intermediate School Name"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/interid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Intermediate Percentage"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/interpercentageid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Metric School Name"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/metricid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Metric Percenatge"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/metricpercentageid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Google Drive Link"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/googledrivelinkid">
+
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Your First Project"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/firstprojectid">
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="First Project Description"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/firstprojectdescriptionid">
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Your Second Project"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/secondprojectid">
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="First Second Description"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/secondprojectdescriptionid">
+                    </EditText>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Programming Language"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/programminglanguageid">
+                    </EditText>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Also Familier With"
+                        android:background="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="14dp"
+                        android:maxLines="1"
+                        android:id="@+id/alsofamilierwithid">
+                    </EditText>
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_launcher_foreground"
+                        android:layout_marginBottom="30dp">
+
+                    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
